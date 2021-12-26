@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-//mysql
+//mysql_test
 const mysql = require('mysql');
 const pool = mysql.createPool({
     host: "184.168.117.92",
